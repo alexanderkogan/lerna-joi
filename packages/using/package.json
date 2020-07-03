@@ -1,0 +1,15 @@
+{
+  "name": "using",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@types/hapi__joi": "^17.1.3",
+    "@types/jest": "^26.0.1",
+    "@hapi/joi": "^17.1.1",
+    "ts-jest": "^26.1.1",
+    "schemas": "^1.0.0"
+  },
+  "scripts": {
+    "test": "jest --config=jest.conf.js --detectOpenHandles --coverage"
+  }
+}
