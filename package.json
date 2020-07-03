@@ -1,4 +1,8 @@
 {
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "all": "yarn && yarn bootstrap && yarn test",
     "bootstrap": "lerna bootstrap",
