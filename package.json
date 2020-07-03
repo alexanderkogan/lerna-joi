@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "all": "npm install && npm run bootstrap && npm run test",
+    "all": "yarn && yarn bootstrap && yarn test",
     "bootstrap": "lerna bootstrap",
     "test": "lerna run --parallel test"
   },
