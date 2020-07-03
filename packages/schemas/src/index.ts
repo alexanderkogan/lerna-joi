@@ -12,3 +12,4 @@ export const testSchema = Joi.object({
     id: idSchema,
     name: Joi.string().required()
 });
+export const exportedArraySchema = Joi.array().items(testSchema)
