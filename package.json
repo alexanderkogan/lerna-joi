@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "all": "npm install && npm run bootstrap && npm run test",
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna run --parallel test"
+  },
+  "dependencies": {
+    "jest": "^26.1.0",
+    "lerna": "^3.22.1",
+    "typescript": "^3.9.6",
+    "@types/jest": "^26.0.1"
+  }
+}
